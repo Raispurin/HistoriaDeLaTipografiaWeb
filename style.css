@@ -1,0 +1,64 @@
+* {	
+    line-height: 1.5;  
+    margin-bottom: 1.5;
+    margin-top: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 35);
+    background-image: url('imagenes/FONDO.jpg');
+    margin: 0;
+}
+
+p {
+    margin: auto;
+    max-width: 32em;
+    line-height: 1.5;
+    text-anchor: middle;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    background-color: rgb(234, 234, 235);
+}
+
+h1 {
+    margin: 30px auto;
+    color: #ff7e29;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+h2 {
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: navy;
+    font-weight: 400;
+    max-width: 20em;
+    line-height: 1.2;
+}
+
+article p {
+    margin: 20px auto;
+    max-width: 31em;
+    text-align: justify;
+    line-height: 1.45;
+}
+
+a {
+    color: navy;
+}
+
+.grid {
+    background-image: linear-gradient(to bottom, hsla(238, 63%, 30%, 0.3) 1px, transparent 1px);
+    background-repeat: repeat;
+    background-position: left top;
+    background-size: 100% 25px;
+}
